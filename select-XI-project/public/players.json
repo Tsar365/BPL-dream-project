@@ -1,0 +1,110 @@
+[
+	{
+		"id": 1,
+		"playerImage": "https://i.pravatar.cc/300?img=11",
+		"playerName": "Shakib Al Hasan",
+		"country": "Bangladesh",
+		"role": "All-Rounder",
+		"rating": 98,
+		"bplTeam": "Rangpur Riders"
+	},
+	{
+		"id": 2,
+		"playerImage": "https://i.pravatar.cc/300?img=12",
+		"playerName": "Tamim Iqbal",
+		"country": "Bangladesh",
+		"role": "Batter",
+		"rating": 94,
+		"bplTeam": "Fortune Barishal"
+	},
+	{
+		"id": 3,
+		"playerImage": "https://i.pravatar.cc/300?img=13",
+		"playerName": "Mustafizur Rahman",
+		"country": "Bangladesh",
+		"role": "Bowler",
+		"rating": 92,
+		"bplTeam": "Comilla Victorians"
+	},
+	{
+		"id": 4,
+		"playerImage": "https://i.pravatar.cc/300?img=14",
+		"playerName": "Litton Das",
+		"country": "Bangladesh",
+		"role": "Wicketkeeper Batter",
+		"rating": 90,
+		"bplTeam": "Dhaka Capitals"
+	},
+	{
+		"id": 5,
+		"playerImage": "https://i.pravatar.cc/300?img=15",
+		"playerName": "Mahmudullah Riyad",
+		"country": "Bangladesh",
+		"role": "All-Rounder",
+		"rating": 89,
+		"bplTeam": "Khulna Tigers"
+	},
+	{
+		"id": 6,
+		"playerImage": "https://i.pravatar.cc/300?img=16",
+		"playerName": "Babar Azam",
+		"country": "Pakistan",
+		"role": "Batter",
+		"rating": 97,
+		"bplTeam": "Chattogram Challengers"
+	},
+	{
+		"id": 7,
+		"playerImage": "https://i.pravatar.cc/300?img=17",
+		"playerName": "Rashid Khan",
+		"country": "Afghanistan",
+		"role": "Bowler",
+		"rating": 99,
+		"bplTeam": "Rangpur Riders"
+	},
+	{
+		"id": 8,
+		"playerImage": "https://i.pravatar.cc/300?img=18",
+		"playerName": "Andre Russell",
+		"country": "West Indies",
+		"role": "All-Rounder",
+		"rating": 96,
+		"bplTeam": "Dhaka Capitals"
+	},
+	{
+		"id": 9,
+		"playerImage": "https://i.pravatar.cc/300?img=19",
+		"playerName": "Sunil Narine",
+		"country": "West Indies",
+		"role": "All-Rounder",
+		"rating": 95,
+		"bplTeam": "Comilla Victorians"
+	},
+	{
+		"id": 10,
+		"playerImage": "https://i.pravatar.cc/300?img=20",
+		"playerName": "David Miller",
+		"country": "South Africa",
+		"role": "Batter",
+		"rating": 91,
+		"bplTeam": "Fortune Barishal"
+	},
+	{
+		"id": 11,
+		"playerImage": "https://i.pravatar.cc/300?img=21",
+		"playerName": "Wanindu Hasaranga",
+		"country": "Sri Lanka",
+		"role": "All-Rounder",
+		"rating": 95,
+		"bplTeam": "Khulna Tigers"
+	},
+	{
+		"id": 12,
+		"playerImage": "https://i.pravatar.cc/300?img=22",
+		"playerName": "Thisara Perera",
+		"country": "Sri Lanka",
+		"role": "All-Rounder",
+		"rating": 88,
+		"bplTeam": "Sylhet Strikers"
+	}
+]
