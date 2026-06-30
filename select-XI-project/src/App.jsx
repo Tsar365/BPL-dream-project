@@ -18,6 +18,7 @@ function App() {
 
   return (
 		<>
+		<h1>hell o</h1>
 			<Navbar></Navbar>
 
 			<Suspense
