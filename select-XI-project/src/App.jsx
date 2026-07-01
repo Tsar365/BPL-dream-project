@@ -15,7 +15,8 @@ const fetchPlayers = async () => {
 function App() {
 	const [toggle, setToggle] = useState(true);
 	const [availableBalance, setAvailableBalance]=useState(6000)
-
+	const [purchasedPlayers, setPurchasedPlayers] = useState([]);
+	console.log(purchasedPlayers);
 
 
 	return (
@@ -48,12 +49,14 @@ function App() {
 						<span className="loading loading-spinner loading-xl"></span>
 					}>
 					<AvailablePlayers
+						purchasedPlayers={purchasedPlayers}
+						setPurchasedPlayers={setPurchasedPlayers}
 						availableBalance={availableBalance}
 						setAvailableBalance={setAvailableBalance}
 						playerPromise={playerPromise}></AvailablePlayers>
 				</Suspense>
 			) : (
-				<SelectedPlayers></SelectedPlayers>
+				<SelectedPlayers purchasedPlayers={purchasedPlayers} />
 			)}
 		</>
 	);
