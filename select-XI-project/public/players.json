@@ -9,7 +9,7 @@
 		"bplTeam": "Rangpur Riders",
 		"battingStyle": "Left-hand Bat",
 		"bowlingStyle": "Left-arm Orthodox",
-		"price": 1800000
+		"price": 180
 	},
 	{
 		"id": 2,
@@ -21,7 +21,7 @@
 		"bplTeam": "Fortune Barishal",
 		"battingStyle": "Left-hand Bat",
 		"bowlingStyle": "None",
-		"price": 1500000
+		"price": 1500
 	},
 	{
 		"id": 3,
@@ -33,7 +33,7 @@
 		"bplTeam": "Comilla Victorians",
 		"battingStyle": "Left-hand Bat",
 		"bowlingStyle": "Left-arm Fast",
-		"price": 1600000
+		"price": 160
 	},
 	{
 		"id": 4,
@@ -45,7 +45,7 @@
 		"bplTeam": "Dhaka Capitals",
 		"battingStyle": "Right-hand Bat",
 		"bowlingStyle": "None",
-		"price": 1400000
+		"price": 140
 	},
 	{
 		"id": 5,
@@ -57,7 +57,7 @@
 		"bplTeam": "Khulna Tigers",
 		"battingStyle": "Right-hand Bat",
 		"bowlingStyle": "Right-arm Off Break",
-		"price": 1300000
+		"price": 1300
 	},
 	{
 		"id": 6,
@@ -69,7 +69,7 @@
 		"bplTeam": "Chattogram Challengers",
 		"battingStyle": "Right-hand Bat",
 		"bowlingStyle": "None",
-		"price": 2200000
+		"price": 22000
 	},
 	{
 		"id": 7,

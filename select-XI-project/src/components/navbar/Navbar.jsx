@@ -2,7 +2,7 @@
 import navImg from '../../assets/logo.png';
 import dollar from '../../assets/dollar1.png';
 
-const Navbar = () => {
+const Navbar = ({availableBalance}) => {
   return (
 		<div>
 			<div className="navbar max-w-[1200px] mx-auto">
@@ -17,7 +17,7 @@ const Navbar = () => {
 				</div>
 
 				<div className="flex items-center gap-2">
-					<span>600000</span>
+					<span>{availableBalance}</span>
 					<span>Coin</span>
 					<img
 						className="w-6 h-6"
