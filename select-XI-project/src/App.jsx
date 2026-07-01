@@ -1,5 +1,6 @@
 import { Suspense, useState } from 'react';
 import './App.css';
+ import { ToastContainer } from 'react-toastify';
 
 import AvailablePlayers from './components/AvailablePlayers/availableplayers';
 import Navbar from './components/navbar/Navbar';
@@ -66,8 +67,12 @@ function App() {
 						playerPromise={playerPromise}></AvailablePlayers>
 				</Suspense>
 			) : (
-				<SelectedPlayers removePlayer={removePlayer} purchasedPlayers={purchasedPlayers} />
+				<SelectedPlayers
+					removePlayer={removePlayer}
+					purchasedPlayers={purchasedPlayers}
+				/>
 			)}
+			<ToastContainer />
 		</>
 	);
 }
