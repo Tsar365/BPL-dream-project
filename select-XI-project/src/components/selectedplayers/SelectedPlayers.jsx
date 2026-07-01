@@ -1,11 +1,15 @@
 // import React from 'react';
+// import bin from '../../assets/Vector.png';
+import SelectedCard from '../selectedcard/SelectedCard';
 
-const SelectedPlayers = ({ purchasedPlayers }) => {
-  return (
-    <div className="max-w-[1200px] mx-auto">
-      <p>selectfgffffffffffffed</p>
-    </div>
-  );
+const SelectedPlayers = ({ purchasedPlayers, removePlayer }) => {
+	return (
+		<div className="max-w-[1200px] mx-auto">
+			{purchasedPlayers.map((player) => (
+				<SelectedCard player={player} removePlayer={removePlayer}></SelectedCard>
+			))}
+		</div>
+	);
 };
 
 export default SelectedPlayers;

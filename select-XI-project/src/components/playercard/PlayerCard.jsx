@@ -3,22 +3,27 @@ import userImg from '../../assets/user1.png';
 import flagImg from '../../assets/report1.png';
 import { useState } from 'react';
 
-const PlayerCard = ({ player, setAvailableBalance, availableBalance, purchasedPlayers, setPurchasedPlayers }) => {
+const PlayerCard = ({
+	player,
+	setAvailableBalance,
+	availableBalance,
+	purchasedPlayers,
+	setPurchasedPlayers,
+}) => {
 	const [isSelected, setIsSelected] = useState(false);
 
-  const handleSelected = (playerData) => {
-    const playerprice = parseInt(playerData.price);
+	const handleSelected = (playerData) => {
+		const playerprice = parseInt(playerData.price);
 
-    if (availableBalance < playerprice) {
-      alert('Insufficient balance to select this player.');
-      return;
-    }
+		if (availableBalance < playerprice) {
+			alert('Insufficient balance to select this player.');
+			return;
+		}
 
-setIsSelected(true);
-setAvailableBalance(availableBalance - playerprice);
-setPurchasedPlayers([...purchasedPlayers, playerData]);
-
-  }
+		setIsSelected(true);
+		setAvailableBalance(availableBalance - playerprice);
+		setPurchasedPlayers([...purchasedPlayers, playerData]);
+	};
 
 	return (
 		<div className="card bg-base-100 shadow-sm p-4">
